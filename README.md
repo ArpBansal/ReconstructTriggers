@@ -20,13 +20,13 @@ The solution uses an optimization-based method to reconstruct trigger patterns i
 
 ## 3. Warm Starting
 These were taken from a public notebook (could trace back it to @lennarthaupts)
-- **33 candidate patterns** are pre-generated and evaluated:
+- **33 candidate patterns** are pre-generated:
   - Constant values per channel (positive/negative limits)
   - Linear ramps
   - Step functions (switch patterns)
   - Sine waves
   - Various combinations across channels
-  
+
 ## 4. Custom Fitness Function
 - **Divergence score**: Measures how much the poisoned model's predictions diverge from clean predictions when the trigger is injected
 - **Channel-wise normalization**: Each channel's contribution is normalized by baseline prediction error to account for varying channel sensitivities
