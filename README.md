@@ -44,6 +44,13 @@ Doing this for all 45 models in one run was time consuming so i did for 5 models
 
 I will update a separate joblib version too, that does parallel processing.
 
+# Plots
+Some example plot of run
+![model-41](/assets/image_41.png)
+![model-42](/assets/image_42.png)
+![model-43](/assets/image_43.png)
+
+
 For more details, background, and citing the competition, refer to the arXiv publication: https://arxiv.org/abs/2506.01849
 
 Source: https://www.kaggle.com/competitions/trojan-horse-hunt-in-space
